@@ -1,3 +1,32 @@
-#green-text {
-    color: green;
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* font-family: 'Roboto', sans-serif; */
+}
+  
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav > a {
+    margin: 2%;
+}
+
+#who-am-i {
+    background-color: lightblue;
+    height: 50vmin;
+}
+
+#what-ive-made {
+    background-color: lightpink;
+    height: 50vmin;
+}
+
+#reach-me {
+    background-color: lightgoldenrodyellow;
+    height: 50vmin;
 }

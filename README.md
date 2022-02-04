@@ -1,6 +1,4 @@
 # Designer Portfolio
-## For Poppy Crawshaw
+## For Poppy Crawshaw | **Click [here](https://ripleymay.github.io/poppy/) to view in browser!** 
 
-To display the projects I've worked on. Built with vanilla JavaScript, HTML, and CSS.
-
-**Click [here](https://ripleymay.github.io/poppy/) to view in browser!** 
+Built with vanilla JavaScript, HTML, and CSS.
