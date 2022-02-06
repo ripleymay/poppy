@@ -22,8 +22,39 @@ nav > a {
     font-size: 2rem;
 }
 
+#seeds > img {
+    max-width: 30px;
+}
+
+#seeds {
+    margin-left: 4%;
+    margin-right: auto;
+}
+
 nav > a:hover, #contact > a:hover {
     color: black;
+}
+
+#squares {
+    margin: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#squares a {
+    width: 25%;
+    margin: 2%;
+    text-align: center;
+}
+
+#squares img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+#squares img:hover {
+    width: 95%;
 }
 
 #about-me > img, #splash > img, #playte > img, 
@@ -31,11 +62,11 @@ nav > a:hover, #contact > a:hover {
     width: 100%;
 }
 
-#lets-chat {
-    margin: 10% auto;
+#lets-chat, #portfolio {
+    padding: 8% 0%;
 }
 
-#lets-chat > img {
+#lets-chat > img, #portfolio > img {
     width: 40%;
     margin: 0% 10%;
 }
@@ -61,4 +92,30 @@ nav > a:hover, #contact > a:hover {
     color: black;
     font-size: 3vmin;
     margin: 0;
+}
+
+.thesis {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.see-more {
+    display: block;
+    margin: 8% auto;
+    width: 10%;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
 }
