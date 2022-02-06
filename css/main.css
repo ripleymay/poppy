@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Avenir', sans-serif;
@@ -60,6 +64,15 @@ nav > a:hover, #contact > a:hover {
 #about-me > img, #splash > img, #playte > img, 
 #on-call > img, #lineage > img, #second-cycle > img {
     width: 100%;
+}
+
+#second-cycle > iframe, #on-call > iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 5% 20%;
 }
 
 #lets-chat, #portfolio {
